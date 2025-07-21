@@ -226,7 +226,10 @@ nav {
 }
 
 /* section portfolio */
-
+.portfolio h3,
+.portfolio p {
+  padding-left: 16px;
+}
 .port-list {
   display: flex;
   flex-wrap: wrap;
