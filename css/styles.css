@@ -73,11 +73,8 @@ header {
   border-bottom: 1px solid #e7e9fc;
 }
 .page-header .container {
-  /* border-bottom: 1px solid #e7e9fc; */
   display: flex;
   justify-content: space-between;
-  /* padding-top: 24px;
-  padding-bottom: 24px; */
 }
 .nav {
   display: flex;
@@ -101,12 +98,10 @@ header {
   display: flex;
   gap: 40px;
 }
-.nav-item {
-  padding: 24px 0;
-}
+
 .link {
   display: block;
-
+  padding: 24px 0;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
