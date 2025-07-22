@@ -100,6 +100,8 @@ header {
 .page-nav {
   display: flex;
   gap: 40px;
+}
+.nav-item {
   padding: 24px 0;
 }
 .link {
@@ -255,6 +257,9 @@ header {
 .name-position {
   padding: 32px 0;
 }
+.team-names {
+  margin-bottom: 8px;
+}
 .position,
 .team-names {
   text-align: center;
@@ -270,6 +275,7 @@ header {
 }
 
 /* section portfolio */
+
 .portfolio {
   padding-top: 120px;
   padding-bottom: 120px;
