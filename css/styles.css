@@ -66,14 +66,21 @@ img {
   max-width: 1440px;
   padding-left: 156px;
   padding-right: 156px;
-  margin-left: 0;
-  margin-right: 0;
+  margin: 0 auto;
+
+  /* width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px; */
 }
+/* .section-title {
+  padding-top: 120px;
+} */
 /* header */
-header {
+/* header {
   border-bottom: 1px solid var(--cornflower);
-}
+} */
 .page-header .container {
+  border-bottom: 1px solid var(--cornflower);
   display: flex;
   justify-content: space-between;
   padding-top: 24px;
@@ -171,6 +178,7 @@ nav {
 .ben-list {
   display: flex;
   gap: 24px;
+  /* padding-bottom: 120px; */
 }
 .section-title {
   padding-bottom: 72px;
@@ -208,6 +216,7 @@ nav {
 .team-list {
   display: flex;
   gap: 24px;
+  /* padding-bottom: 120px; */
 }
 .team .text,
 .names {
@@ -230,10 +239,21 @@ nav {
 .portfolio p {
   padding-left: 16px;
 }
+.portfolio p {
+  border-right: 1px solid var(--cornflower);
+  border-bottom: 1px solid var(--cornflower);
+  border-left: 1px solid var(--cornflower);
+}
+.portfolio h3 {
+  border-right: 1px solid var(--cornflower);
+
+  border-left: 1px solid var(--cornflower);
+}
 .port-list {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  /* padding-bottom: 120px; */
 }
 
 .port-item {
